@@ -1,0 +1,14 @@
+
+<div class="row">
+    <div class="container">
+        <h1>Welcome to data binding page</h1>
+   <div class="col-6" [ngClass]="divProprty">
+       <h4> Name:  {{userName}} </h4>
+       <h4> Mobile No :{{mobileNo}}</h4>
+   </div>
+   <div class="col-6">
+       <input type="text" name="userName" [(ngModel)]="userName">
+       <button (click)="showNam()">Update Data</button>
+   </div>
+</div>
+</div>
